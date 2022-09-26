@@ -16,8 +16,8 @@ spec:
       name: redis-pod
       labels:
         name: redis
-        spec:
-          containers:
-            - name: my-redis
-              image: redis
+    spec:
+      containers:
+        - name: my-redis
+          image: redis
 ...
